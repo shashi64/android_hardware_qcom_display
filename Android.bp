@@ -27,8 +27,8 @@ cc_library_headers {
         "sdm/include",
         "gralloc",
     ],
-    header_libs: ["libhardware_headers", "display_intf_headers"],
-    export_header_lib_headers: ["libhardware_headers", "display_intf_headers"],
+    header_libs: ["libhardware_headers"],
+    export_header_lib_headers: ["libhardware_headers"],
 }
 
 subdirs = [
